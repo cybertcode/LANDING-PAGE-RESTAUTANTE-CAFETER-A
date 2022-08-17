@@ -22,9 +22,7 @@
 .header-customers-li {
 	@apply block w-[40px] h-[40px] overflow-hidden rounded-full border-[3.5px] border-orange-50 -ml-3 first:-ml-0;
 }
-.header-customer-image {
-	@apply w-full h-full  object-cover;
-}
+
 .header-list-msg {
 	@apply ml-3 text-sm sm:text-sm font-medium text-orange-800;
 }
@@ -36,7 +34,4 @@
 }
 .logo {
 	@apply absolute top-6 left-6 w-[140px] h-auto;
-}
-.logo-img {
-	@apply w-full h-full object-cover;
 }

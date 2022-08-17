@@ -4,3 +4,6 @@
 .row {
 	@apply flex flex-wrap;
 }
+.image-cover {
+	@apply w-full h-full  object-cover;
+}

@@ -12,11 +12,16 @@
 </head>
 
 <body>
-
+    <span class="nav-open" id="open">
+        <i class="bi bi-menu-button-wide text-white text-lg hover:text-2xl"></i>
+    </span>
+    <!-- /*****************
+    * INICIO HEADER *
+    *****************/ -->
     <header class="header">
         <div class="container relative">
             <a href="index.html" class="logo">
-                <img src="./images/logo.png" alt="" class="logo-img">
+                <img src="./images/logo.png" alt="" class="image-cover ">
             </a>
             <div class="row items-center pt-28 xl:pt-20 -ml-5">
                 <div class="header-left-col">
@@ -29,22 +34,22 @@
                     </p>
                     <ul class="header-customers-ul">
                         <li class="header-customers-li">
-                            <img src="./images/customers/1.jpg" alt="image1" class="header-customer-image">
+                            <img src="./images/customers/1.jpg" alt="image1" class="image-cover rounded-full">
                         </li>
                         <li class="header-customers-li">
-                            <img src="./images/customers/2.jpg" alt="image1" class="header-customer-image">
+                            <img src="./images/customers/2.jpg" alt="image1" class="image-cover rounded-full">
                         </li>
                         <li class="header-customers-li">
-                            <img src="./images/customers/3.jpg" alt="image1" class="header-customer-image">
+                            <img src="./images/customers/3.jpg" alt="image1" class="image-cover rounded-full">
                         </li>
                         <li class="header-customers-li">
-                            <img src="./images/customers/4.jpg" alt="image1" class="header-customer-image">
+                            <img src="./images/customers/4.jpg" alt="image1" class="image-cover rounded-full">
                         </li>
                         <li class="header-customers-li">
-                            <img src="./images/customers/5.jpg" alt="image1" class="header-customer-image">
+                            <img src="./images/customers/5.jpg" alt="image1" class="image-cover rounded-full">
                         </li>
                         <li class="header-customers-li">
-                            <img src="./images/customers/6.jpg" alt="image1" class="header-customer-image">
+                            <img src="./images/customers/6.jpg" alt="image1" class="image-cover rounded-full">
                         </li>
                         <li class="header-list-msg">
                             8500+ clientes felices
@@ -57,8 +62,27 @@
             </div>
         </div>
     </header>
+    <!-- /**************
+     * FIN HEADER *
+     **************/ -->
+    <!-- /**************
+      * INICIO NAV *
+      **************/ -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <i class="bi bi-x-lg nav-close" id="close"></i>
+            <ul class="nav-ul">
+                <li class="nav-link">INICIO</li>
+                <li class="nav-link">CATEGORÍAS</li>
+                <li class="nav-link">RECEPCIÓN</li>
+                <li class="nav-link">PRECIOS</li>
+                <li class="nav-link">TESTIMONIO</li>
+                <li class="nav-link">DESCARGAR APP</li>
+            </ul>
+        </div>
+    </nav>
 
-
+    <script src="/src/js/script.js"></script>
 </body>
 
 </html>
