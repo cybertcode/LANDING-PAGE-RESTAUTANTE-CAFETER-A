@@ -28,3 +28,15 @@
 .header-list-msg {
 	@apply ml-3 text-sm sm:text-sm font-medium text-orange-800;
 }
+.right-col {
+	@apply hidden lg:block lg:w-6/12;
+}
+.header-image {
+	@apply w-full h-auto object-cover;
+}
+.logo {
+	@apply absolute top-6 left-6 w-[140px] h-auto;
+}
+.logo-img {
+	@apply w-full h-full object-cover;
+}
