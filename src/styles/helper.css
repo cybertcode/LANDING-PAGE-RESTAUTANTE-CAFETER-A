@@ -1,0 +1,6 @@
+.container {
+	@apply max-w-screen-lg mx-auto px-6;
+}
+.row {
+	@apply flex flex-wrap;
+}
