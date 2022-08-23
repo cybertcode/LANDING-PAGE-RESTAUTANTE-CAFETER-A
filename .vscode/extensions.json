@@ -3,6 +3,7 @@
 		"hoovercj.vscode-power-mode",
 		"tonybaloney.vscode-pets",
 		"esbenp.prettier-vscode",
-		"kamikillerto.vscode-colorize"
+		"kamikillerto.vscode-colorize",
+		"cirlorm.mobileview"
 	]
 }
