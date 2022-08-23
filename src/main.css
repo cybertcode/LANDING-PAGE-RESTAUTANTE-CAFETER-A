@@ -9,6 +9,7 @@
 @import '/src/styles/category.css';
 @import '/src/styles/dishes.css';
 @import '/src/styles/buttons.css';
+@import '/src/styles/pricing.css';
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
