@@ -12,6 +12,7 @@
 @import '/src/styles/pricing.css';
 @import '/src/styles/testimonials.css';
 @import '/src/styles/lightbox.css';
+@import '/src/styles/download.css';
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
