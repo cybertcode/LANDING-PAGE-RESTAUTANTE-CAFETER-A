@@ -1,3 +1,10 @@
+// PARA CERRAR EL EFECTO DE CARGANDO PÁGINA
+const loader = document.querySelector('.loader');
+window.addEventListener('load', function () {
+	loader.classList.add('hidden');
+});
+//FIN
+
 const nav = document.getElementById('nav');
 const open = document.getElementById('open');
 const close = document.getElementById('close');

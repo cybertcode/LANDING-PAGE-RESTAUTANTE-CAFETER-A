@@ -33,5 +33,5 @@
 	@apply object-cover w-full h-auto;
 }
 .logo {
-	@apply absolute top-6 left-6 w-[140px] h-auto;
+	@apply absolute top-6 left-6 w-[130px] sm:w-[140px] h-auto;
 }

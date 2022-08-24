@@ -6,7 +6,7 @@
 }
 
 .footer-logo-link {
-	@apply inline-block w-[120px] h-[35px];
+	@apply inline-block w-[120px] h-auto;
 }
 .footer-copyright {
 	@apply mt-3 text-base xl:w-8/12;
