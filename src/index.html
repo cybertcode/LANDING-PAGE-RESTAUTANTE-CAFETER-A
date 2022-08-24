@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +13,11 @@
     <body>
         <span class="nav-open" id="open">
         <i class="text-lg text-white bi bi-menu-button-wide hover:text-2xl"></i>
-    </span>
+        </span>
         <!-- /*****************
     * INICIO HEADER *
     *****************/ -->
-        <header class="header">
+        <header class="header" id="inicio">
             <div class="container relative">
                 <a href="index.html" class="logo">
                     <img src="./images/logo.png" alt="" class="image-cover ">
@@ -72,17 +71,17 @@
             <div class="nav-container">
                 <i class="bi bi-x-lg nav-close" id="close"></i>
                 <ul class="nav-ul">
-                    <li class="nav-link">INICIO</li>
-                    <li class="nav-link">CATEGORÍAS</li>
-                    <li class="nav-link">RECEPCIÓN</li>
-                    <li class="nav-link">PRECIOS</li>
-                    <li class="nav-link">TESTIMONIO</li>
-                    <li class="nav-link">DESCARGAR APP</li>
+                    <li><a href="#inicio" class="nav-link">INICIO</a></li>
+                    <li><a href="#categorias" class="nav-link">CATEGORÍAS</a></li>
+                    <li><a href="#platos" class="nav-link">PLATOS</a></li>
+                    <li><a href="#precios" class="nav-link">PRECIOS</a></li>
+                    <li><a href="#testimonios" class="nav-link">TESTIMONIO</a></li>
+                    <li><a href="#descargar" class="nav-link">DESCARGAR APP</a></li>
                 </ul>
             </div>
         </nav>
         <!-- CATEGORÍA -->
-        <section class="category">
+        <section class="category" id="categorias">
             <div class="container">
                 <h1 class="heading">Categorías</h1>
                 <div class="-mx-3 row">
@@ -171,7 +170,7 @@
         </section>
         <!-- FIN CATEGORÍA -->
         <!-- INICIO PLATOS -->
-        <section class="dishes">
+        <section class="dishes" id="platos">
             <div class="container skew-y-2">
                 <h1 class="heading">PLATOS POLULARES</h1>
                 <div class="-mx-3 row">
@@ -284,7 +283,7 @@
         </section>
         <!-- FIN PLATOS -->
         <!-- INICIO PRECIOS -->
-        <section class="pricing">
+        <section class="pricing" id="precios">
             <div class="container">
                 <h1 class="text-center heading">PRECIOS</h1>
                 <div class="justify-center -mx-6 row">
@@ -373,7 +372,7 @@
         </section>
         <!-- FIN PRECIOS -->
         <!-- INICIO TESTIMONIO -->
-        <section class="testimonials">
+        <section class="testimonials" id="testimonios">
             <div class="container">
                 <div class="testimonials-heading-block">
                     <h1 class="heading">TESTIMONIOS</h1>
@@ -507,7 +506,7 @@
         </section>
         <!-- FIN CAJA PARA IMAGEN DE GALERÍA -->
         <!-- INICIO DESCARGAR APP -->
-        <section class="download">
+        <section class="download" id="descargar">
             <div class="container">
                 <div class="row items-center h-[450px]">
                     <div class="download-col">
@@ -525,6 +524,66 @@
             </div>
         </section>
         <!-- FIN DESCARGAR APP -->
+        <!-- INICIO FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="-mx-4 row">
+                    <!-- LOGO -->
+                    <div class="footer-logo-col">
+                        <a href="#" class="footer-logo-link">
+                            <img src="./images/logo.png" alt="" class="image-cover">
+                        </a>
+                        <p class="footer-copyright">Copyright &copy; <span class="capitalize year"></span> por CYBERTCODE, Inc. Todos los Derechos Reservados </p>
+                        <ul class="footer-social">
+                            <a href=""><i class="text-orange-600 bi bi-facebook"></i></a>
+                            <a href=""><i class="text-orange-600 bi bi-twitter"></i></a>
+                            <a href=""><i class="text-orange-600 bi bi-instagram"></i></a>
+                        </ul>
+                    </div>
+                    <!-- ServicioS -->
+                    <div class="footer-col">
+                        <h1 class="footer-heading">Servicios</h1>
+                        <ul class="mt-6">
+                            <li><a href="#" class="footer-ul-li-a">Pedido en línea</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Super chat</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Reserva gratis</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Servicio 24/7</a></li>
+                        </ul>
+                    </div>
+                    <!-- fin servicio -->
+                    <div class="footer-col">
+                        <h1 class="footer-heading">enlaces rápidos</h1>
+                        <ul class="mt-6">
+                            <li><a href="#" class="footer-ul-li-a">Categorías</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Platos</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Precios</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Testimonios</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Descargar APP</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1 class="footer-heading">Sobre nosotros</h1>
+                        <ul class="mt-6">
+                            <li><a href="#" class="footer-ul-li-a">Quienes somos</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Nuestra Historia</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Beneficios</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Chefs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1 class="footer-heading">Ayuda</h1>
+                        <ul class="mt-6">
+                            <li><a href="#" class="footer-ul-li-a">Contáctanos</a></li>
+                            <li><a href="#" class="footer-ul-li-a">Soporte</a></li>
+                            <li><a href="#" class="footer-ul-li-a">FAQ</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- FIN FOOTER -->
         <script src="/src/js/script.js"></script>
     </body>
 

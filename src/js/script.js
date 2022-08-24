@@ -42,3 +42,7 @@ lightbox.addEventListener('click', function (e) {
 });
 //FIN  CERRAR lightbox
 
+// PARA EL AÑO
+const year = document.querySelector('.year');
+const getYear = new Date().getFullYear();
+year.innerHTML = getYear;
