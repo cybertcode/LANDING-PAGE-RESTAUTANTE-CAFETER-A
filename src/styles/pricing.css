@@ -1,0 +1,30 @@
+.pricing {
+	@apply py-20;
+}
+.pricing-column {
+	@apply w-full p-6 sm:w-8/12 md:w-7/12 lg:w-5/12 xl:w-4/12;
+}
+.pricing-card {
+	@apply px-10 py-10 pt-20 border-2 border-yellow-300 border-dashed rounded-lg bg-yellow-50 relative;
+}
+.pricing-heading {
+	@apply text-xl font-semibold text-center text-orange-700 uppercase;
+}
+.pricing-sign {
+	@apply mr-2 text-2xl;
+}
+.pricing-price {
+	@apply text-gray-700 text-[62px] font-semibold;
+}
+.pricing-message {
+	@apply text-sm text-gray-700;
+}
+.pricing-list {
+	@apply flex items-center mb-5;
+}
+.pricing-list-icon {
+	@apply flex justify-center items-center w-[25px] h-[25px] rounded-full bg-orange-600 mr-3;
+}
+.pricing-list-feature {
+	@apply text-base text-gray-700 capitalize;
+}

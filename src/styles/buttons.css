@@ -1,0 +1,12 @@
+.btn {
+	@apply inline-block px-4 py-2 text-sm text-white capitalize transition-all duration-500 rounded;
+}
+.btn-default {
+	@apply bg-orange-600 focus:ring-2 ring-offset-2 ring-orange-400;
+}
+.btn-lg {
+	@apply px-5 py-3 text-base font-medium;
+}
+.pricing-label {
+	@apply absolute top-[20px] right-[-15px] py-2 px-5 bg-yellow-500 font-bold uppercase text-gray-800 text-xs after:absolute after:top-[12px] after:right-[6px] after:h-full after:w-10 after:bg-yellow-600 after:-rotate-[29deg] after:-z-10;
+}

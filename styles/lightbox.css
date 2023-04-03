@@ -1,0 +1,6 @@
+.lightbox {
+	@apply fixed inset-0 z-20 flex items-center justify-center w-full h-full transition-all duration-300 scale-0 bg-black/80;
+}
+.lightbox-body {
+	@apply w-auto max-h-[500px] h-full overflow-hidden lg:p-6 sm:p-0;
+}
