@@ -7,7 +7,7 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-## 📜 Descripción del proyecto <a name="-descripción-del-proyecto-"></a>
+## 📓 Descripción del proyecto <a name="-descripción-del-proyecto-"></a>
 
 <p>Este es un proyecto de una landing page para una cafetería, diseñada con el framework CSS TailwindCSS y el bundler Vite. La página incluye información sobre la cafetería, sus productos y servicios, horarios de atención, ubicación y formas de contacto.
 
@@ -27,7 +27,7 @@
 
 <h2> 📝 Tabla de contenido </h2>
 
-- [� Descripción del proyecto ](#-descripción-del-proyecto-)
+- [📓 Descripción del proyecto ](#-descripción-del-proyecto-)
 - [🥇 DEMO 🥇 ](#-demo--)
 - [💎 Tecnologías utilizados](#-tecnologías-utilizados)
   - [📖 Requerimientos ](#-requerimientos-)
